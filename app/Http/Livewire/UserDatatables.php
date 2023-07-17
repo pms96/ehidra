@@ -13,6 +13,11 @@ use Mediconesystems\LivewireDatatables\Http\Livewire\LivewireDatatable;
 class UserDatatables extends LivewireDatatable
 {
     public $model = User::class;
+
+    public function builder()
+    {
+        return User::query();
+    }
   
     /**
      * Write code on Method

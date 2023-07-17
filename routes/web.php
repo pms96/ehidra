@@ -30,8 +30,8 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-    Route::get('/users', [UserController::class, 'getData'])->name('users');
     Route::get('user-datatables', function () {
         return view('userDatatables');
     });
+    Route::get('/users', [UserController::class, 'getData'])->name('users');
 });
