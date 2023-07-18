@@ -37,7 +37,11 @@ class UserDatatables extends LivewireDatatable
             Column::name('email'),
   
             DateColumn::name('created_at')
-                ->label('Creation Date')
+                ->label('Creation Date'),
+
+            Column::callback(['id', 'name'], function ($id, $name) {
+                return view('components.action-datatable', ['user' => $id, 'name' => $name]);
+            })->label('Acciones'),
         ];
     }
 }
