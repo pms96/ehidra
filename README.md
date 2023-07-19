@@ -21,7 +21,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Start Laravel
 
 To Start for observer this project: 
 - clone project with: git clone xxxxxx
@@ -39,3 +39,7 @@ To Start for observer this project:
 - You can log in with this credentials or create new user 
     -   user: admin@admin.com
     -   password: admin
+
+
+## Can't user Laravel 10 with mediconesystem/datatables
+-   not support to reedware/laravel-relation-joins ^3.0, laravel 10 use 4.0 
