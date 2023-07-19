@@ -68,7 +68,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 1  composer install
+3 en otra consola en el directorio de la carpeta ./vendor/bin/sail up
 2 ./vendor/bin/sail artisan migrate
+en caso de dar error
+./vendor/bin/sail down
 3 en otra consola en el directorio de la carpeta ./vendor/bin/sail up
 4 npm install
 5 npm run dev
